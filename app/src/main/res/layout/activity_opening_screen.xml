@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+    
+    <ImageView
+        android:layout_width="@dimen/star1_width"
+        android:layout_height="@dimen/star1_width"
+        android:src="@drawable/star1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="313dp"
+        android:layout_marginStart="37dp"/>
+    <ImageView
+        android:layout_width="@dimen/star2_width"
+        android:layout_height="@dimen/star2_width"
+        android:src="@drawable/star2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginStart="226dp"/>
+    <ImageView
+        android:layout_width="@dimen/star3_width"
+        android:layout_height="@dimen/star3_width"
+        android:src="@drawable/star3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginStart="58dp"/>
+    <ImageView
+        android:layout_width="@dimen/star3_width"
+        android:layout_height="@dimen/star3_width"
+        android:src="@drawable/star4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="125dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore the app"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="471dp"/>
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_screen"
+        android:fontFamily="@font/inter"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="524dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/CreateLoginBtn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/Login"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/WelcomeCreateAccBtn"
+        android:backgroundTint="@color/white"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/Create_Account"
+        android:textColor="@color/black"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

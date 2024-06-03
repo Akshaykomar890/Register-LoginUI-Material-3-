@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#F0F3FB">
+
+
+   <ImageView
+       android:layout_width="@dimen/crt_star_width"
+       android:layout_height="@dimen/crt_star_width"
+       android:src="@drawable/star"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginStart="320dp"
+       android:layout_marginEnd="27dp"
+       android:layout_marginTop="47dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="145dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="34dp"
+        android:textSize="30sp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameInput"
+        android:layout_width="@dimen/email_width"
+        android:layout_height="@dimen/email_height"
+        android:hint="@string/Username"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:endIconMode="clear_text"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="246dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxBackgroundColor = "#F1F3F4"
+        app:boxCornerRadiusBottomEnd="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/createEmailInput"
+        android:layout_width="@dimen/email_width"
+        android:layout_height="@dimen/email_height"
+        android:hint="@string/yourEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:endIconMode="clear_text"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="346dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxBackgroundColor = "#F1F3F4"
+        app:boxCornerRadiusBottomEnd="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/createPasswordInput"
+        android:layout_width="@dimen/email_width"
+        android:layout_height="@dimen/email_height"
+        android:hint="@string/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="450dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:passwordToggleEnabled="true"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxBackgroundColor = "#F1F3F4"
+        app:boxCornerRadiusBottomEnd="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginBtn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="588dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/Create_Account"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/haveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textColor="@color/black"
+        app:layout_goneMarginStart="87dp"
+        android:fontFamily="@font/inter"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="87dp"
+        app:layout_constraintStart_toStartOf="@id/loginBtn"
+        app:layout_constraintEnd_toEndOf="@id/loginBtn"
+        app:layout_constraintTop_toTopOf="@id/loginBtn"/>
+
+    <TextView
+        android:id="@+id/CreateAccountBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login in"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="125dp"
+        app:layout_constraintStart_toStartOf="@id/loginBtn"
+        app:layout_constraintEnd_toEndOf="@id/loginBtn"
+        app:layout_constraintTop_toTopOf="@id/loginBtn"
+        android:layout_marginStart="150dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

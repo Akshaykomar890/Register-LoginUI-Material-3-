@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_size">30sp</dimen>
+    <dimen name="hello">30dp</dimen>
+    <dimen name="email_width">353dp</dimen>
+    <dimen name="email_height">56dp</dimen>
+    <dimen name="btn_width">353dp</dimen>
+    <dimen name="btn_height">56dp</dimen>
+    <dimen name="divider_width">132dp</dimen>
+    <dimen name="fb_btn_width">176dp</dimen>
+    <dimen name="crt_star_width">46dp</dimen>
+    <dimen name="star1_width">42dp</dimen>
+    <dimen name="star2_width">69dp</dimen>
+    <dimen name="star3_width">226dp</dimen>
+</resources>

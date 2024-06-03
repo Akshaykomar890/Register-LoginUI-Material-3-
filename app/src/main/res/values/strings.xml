@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project Manager</string>
+    <string name="welcome">Hi,Welcome!</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="Create_Account">Create Account</string>
+    <string name="Username">Your username</string>
+    <string name="yourEmail">Your email</string>
+    <string name="Login">Login</string>
+    <string name="welcome_screen">Now you can easly manage all\n<b>Projects in one place</b></string>
+    <dimen name="start_width">46dp</dimen>
+    <dimen name="start_height">44dp</dimen>
+</resources>
